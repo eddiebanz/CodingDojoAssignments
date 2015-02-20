@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+
+body{
+	background-color: black;
+	margin: 0px auto;
+	width: 1200px;
+}
+
+#logo{
+	background-color: #E6E6E6;
+	min-height: 125px;
+}
+
+	#logo img{
+		padding-right: 425px;
+		display: inline-block;
+	}
+
+	#logo h3{
+		font-weight: bold;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: right;
+	}
+
+	#logo ul{
+		list-style-type: none;
+		margin:10px 0px 5px 0px;
+		text-align: center;
+		background: center no-repeat, -webkit-linear-gradient(top, #E6E6E6, #B2B2B2, #E6E6E6);
+		border-top: 1px solid black;
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	#logo li{
+		display: inline-block;
+		border-left: 1px solid #666666;
+		margin: 0 auto;
+		padding: 5px 25px 5px 25px ;
+		color: #666666;
+	}
+
+	hr { style="border: 1px solid #cccccc;"	}
+
+#warehouse {
+	width: 700px;
+	padding-top: 5px;
+	display: inline;
+}
+
+	#image-here-warehouse{
+		border: 5px solid #FFFFFF;
+		width: 612px;
+		height: 272px;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	#image-here-logo{
+		border-radius: 20px 20px;
+		width: 60px;
+		height: 19px; 
+		display: inline;
+	}
+
+	#content h6{
+		font-size: 6;
+		color: #B8E68A;
+		display: inline-block;
+}
+
+	#about{
+		background-color: #999999;	
+		min-height: 225px;
+		width: 574px;
+		display: inline-block;
+		margin-top: 10px;
+		vertical-align: top;
+	}
+
+		#about h2{
+			padding: 5px 20px 5px 20px;
+			background-color: yellow;
+		}
+
+		#about h3{
+			color: #FFFFFF;
+			padding-left: 20px;
+			padding-bottom: 10px;
+		}
+
+		#warehouse p{
+			color: #FFFFFF;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+#services{margin-top: 5px;}
+
+	.squares{
+		min-height: 200px;
+		width: 287px;
+		height: 300px;
+		background-color: #FFFFFF;
+		display: inline-block;
+		margin: 0px 5px 0px 5px;
+		vertical-align: top;
+	}
+
+		.squares h2{
+			background-color: yellow;
+			padding-left: 5px;
+			font-size: 22px;
+		}
+
+		.squares p{
+			padding: 5px 10px 0px 10px;
+			height: 50px;
+			margin-bottom: 50px;
+		}
+
+		.service-logo{
+			width:287px;
+		}
+		.readmore{
+			padding: 5px 10px 5px 180px;
+			vertical-align: bottom;
+		}
