@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+
+#logo{
+	background-color: gray;
+	min-height: 155px;
+}
+
+#content{
+	background-color: black;
+	min-height: 800px;
+}
